@@ -76,6 +76,7 @@ public class AddActivity extends AppCompatActivity {
         btn_select.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(!checkPermission(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE})) return;
                 String s = btn_select.getText().toString();
                 if (getString(R.string.select_an_image).equals(s)) {
                     chooseImage();
