@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_back"
+        android:enabled="true"
+        android:icon="@mipmap/back"
+        android:title="返回"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_camera"
+        android:enabled="true"
+        android:icon="@mipmap/camera"
+        android:title="拍照"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_video"
+        android:enabled="true"
+        android:icon="@mipmap/video"
+        android:title="录制"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_update"
+        android:enabled="true"
+        android:icon="@mipmap/home"
+        android:title="首页"
+        app:showAsAction="ifRoom" />
+
+</menu>
